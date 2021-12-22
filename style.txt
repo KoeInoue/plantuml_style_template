@@ -1,0 +1,45 @@
+!$black = "454645"
+!$err_pink = "#pink"
+!$orange = "FF6F61"
+
+skinparam classFontName Helvetica
+skinparam BackgroundColor dddddd
+skinparam shadowinU false
+skinparam RoundCorner 7
+skinparam ArrowColor $black
+skinparam FolderFontColor $black
+skinparam SequenceLifeLineBorderColor $black
+skinparam SequenceGroupHeaderFontColor $black
+skinparam SequenceGroupFontColor $black
+skinparam SequenceGroupBorderColor $black
+skinparam SequenceGroupBorderThickness 1
+skinparam participant {
+    BackgroundColor $orange
+    BorderColor $orange
+    FontColor White
+}
+skinparam database {
+    BackgroundColor 98DDDE
+    BorderColor $black
+    FontColor $black
+}
+skinparam entity {
+    BackgroundColor FFDA29
+    BorderColor $black
+    FontColor $black
+}
+skinparam note {
+    BackgroundColor LightGreen
+    BorderColor $black
+    FontColor $black
+}
+skinparam actor {
+    BackgroundColor FFDA29
+    BorderColor $black
+    FontColor $black
+}
+' Response message will be displayed under the arrow.
+skinparam responseMessageBelowArrow true
+autonumber
+
+
